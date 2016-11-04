@@ -1,0 +1,134 @@
+body {font-family:serif; 
+padding:0 0 0 0;
+margin:0 0 0 0;
+background-color:snow; /*fafad2;*/
+color:black; /*#708090;*/
+margin-left:auto;
+margin-right:auto;
+width:810px;
+font-size:14px;
+}
+a {text-decoration:none;}
+header {text-align:center;
+/*border:solid 1px;*/
+margin-top:20px;
+/*background-image:url(http://pic.90sjimg.com/back_pic/00/04/20/33/f22c0a31c07865d7fc793e94d65ca498.jpg);*/
+background-color:snow;
+background-size:100%;}
+
+header h1{color:maroon;font-family:serif;
+font-size:3.5em;
+padding-bottom:0;
+padding-top:20px;
+margin-bottom:0;}
+header p {padding-bottom:10px;}
+
+nav {text-align:left;}
+nav ul {/*list-style-type:none;*/
+border: solid dimgray 1px;
+border-left-style: none;
+border-right-style:none;
+/*max-width:-webkit-max-content;*/
+text-align: center;
+/*margin-left:auto;
+margin-right:auto;
+width:800px;*/
+padding:5px 0 5px 0;}
+nav ul li {display:inline;
+border-style:none;
+padding:0 100px 0 100px;
+font-size:15px;
+font-family:serif;}
+
+nav a:link {color:black;}
+nav a:visited {color:grey;}
+nav a:hover{background-color:seashell;color:maroon;}
+nav a:active {color:#fff;}
+
+.main, .cv {width:520px;
+margin:0 10px 0 20px;
+display:inline-block;
+padding:0 20px 0 20px;
+float:left;
+/*border:solid 1px;*/
+overflow-wrap:break-word;
+background-color:seashell;}
+.main h1,.cv h1 {
+margin-bottom:10px;
+font-family:serif;
+font-weight:lighter;
+}
+
+.blog {
+width:710px;
+margin: 0 30px 0 30px;
+padding:20px 20px 0 20px;
+overflow-wrap:break-word;
+background-color:seashell;
+}
+.blog h1 {
+font-size:20px;
+margin-bottom:20px;
+font-weight:lighter;
+text-align:center;
+}
+
+.cv {
+
+}
+.datetime {
+font-family:serif;
+font-size:0.8em;
+font-color:darkgrey;
+display:block;
+text-align:right;
+padding-bottom: 10px;
+font-style:italic;
+}
+
+.side {
+width:150px;
+margin:0 20px 0 10px;
+padding: 0 20px 0 20px;
+background-color:seashell;
+display:inline-block;
+border:none;
+overflow-wrap:break-word;
+float:right;}
+.side img{
+padding-top:20px;
+padding-left:20px;
+/*object-position:25px;*/
+width:100px;
+height:100px;
+object-fit:contain;}
+.side h1 {
+font-family:serif;
+font-size:1em;
+padding-right:10px;
+padding-bottom:0;
+text-align:center;
+font-weight:lighter;
+}
+.side p {font-size:12px;}
+section a:link {color:orange;}
+section a:visited {color:grey;}
+section a:hover {color:firebrick;}
+section a:active {color:#fff;}
+
+footer {float: left;
+font-size:12px;
+font-family:sans-serif;
+color:dimgrey;
+position:absolute;
+bottom:60px;
+padding-top:10px;
+/*border:1px solid;*/
+display:block;
+width:810px;
+text-align:center;}
+footer a:link {color:maroon;}
+footer a:visited {color:maroon;}
+footer a:hover {color:coral;}
+footer a:active {}
+
