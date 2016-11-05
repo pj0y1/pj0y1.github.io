@@ -1,9 +1,8 @@
 ---
 layout: post
 title: This is a title.
+excerpt: This is excerpt.
 ---
-
-## {{ page.title}}
 
 This is a paragraph.
 

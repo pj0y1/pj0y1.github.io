@@ -4,7 +4,7 @@ description: Testing.
 
 author: pj0y1
 
-baseurl: /
+baseurl: 
 
 url: http://localhost:4000
 

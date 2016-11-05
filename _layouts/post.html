@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+ 	<link type="image/x-icon" rel="shortcut icon" href="{{ site.baseurl }}/yato-crown.ico" />
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/index.css">
+ 　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+　　<title>{{ page.title }}</title>
+</head>
+
+<body>
+  
+  {% include header-nav %}
+  <div id="wrapper">
+  <section class="blog">
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+    <div class="datetime">{{ page.date | date_to_string}}</div>
+  </section>
+
+  {% include footer %}
+  </div>
+</body>
+</html>

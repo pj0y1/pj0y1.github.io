@@ -1,0 +1,5 @@
+<section class="side">
+    <img src="{{ site.baseurl}}/yato.jpg" alt="yato">
+    <h1>pj0y1</h1>
+    <p>我就想码几个字看看换行的效果。</p>
+  </section>

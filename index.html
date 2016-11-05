@@ -2,5 +2,15 @@
 layout: index
 title: pj0y1's Home
 ---
-　　
-   {{ site.posts }}
+{% assign array = site.posts %}
+<h1>{{ array.first.title }}</h1>
+<hr />
+<p>{{ array.first.excerpt }}<a href="{{ site.baseurl }}{{ array.first.url }}">全文</a></p>
+
+<!--<ul>
+{% for post in site.posts %}
+<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>-->
+
+

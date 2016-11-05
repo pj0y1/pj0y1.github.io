@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+  <title>Contents</title>
+	<link type="image/x-icon" rel="shortcut icon" href="{{ site.baseurl }}/yato-crown.ico" />
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/index.css">
+</head>
+
+<body>
+  {% include header-nav %}
+
+  <div id="wrapper">
+  <section class="content">
+    <h1>Contents</h1>
+    <hr />
+    <ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          <div id="item">{{ post.title }}</div>
+        </a>
+      </li>
+    {% endfor %}
+    </ul>
+  </section>
+
+  {% include side %}
+
+  {% include footer %}
+  </div>
+</body>
+</html>
