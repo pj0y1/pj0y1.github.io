@@ -42,11 +42,12 @@ text-align: center;
 margin-right:auto;
 width:800px;*/
 padding:5px 0 5px 0;}
-nav ul li {display:inline;
+body nav ul li {display:inline;
 border-style:none;
 padding:0 100px 0 100px;
+font-family:sans-serif;
 font-size:15px;
-font-family:serif;}
+}
 
 nav a:link {color:black;}
 nav a:visited {color:grey;}
